@@ -1,0 +1,69 @@
+**🧠 Prompt:**
+
+Design a modern, responsive **property comparison and search web application** called **AppCopilot**, focused on helping users **discover, compare, and save rental properties** based on their lifestyle and preferences. The application should include **clean UI/UX** inspired by platforms like **Zillow**, and support the following main features:
+
+---
+
+### 🏠 Core Pages & Layout:
+1. **Landing / Login / Register Pages**
+   - Modern split-screen layout with a short brand description and form.
+   - Clean typography, muted gradients, minimal forms with icons.
+   - Fields for phone number, email, password, name.
+   - Password reset page.
+
+2. **Dashboard**
+   - Overview of user's recent activity.
+   - Suggested Properties, Saved Searches, Favorites.
+   - Quick access to different features: Search, Alerts, Settings, Comparables.
+
+3. **Search & Compare Page**
+   - Search bar with filters for location, amenities (bedrooms, bathrooms), and price range.
+   - Toggle switch for Saved vs New searches.
+   - Property comparison cards in rows (preferably 4 sections per row):
+     - Carousel images.
+     - Address.
+     - Rent details (e.g. Rent/SqFt, Rent/Month).
+     - Amenities (bedrooms, bathrooms, pet policy, etc.)
+     - Questions section.
+
+4. **Favorites Page**
+   - List of properties marked as favorite.
+   - Each card includes image, title, price, and quick action icons (remove, view).
+
+5. **Side Modal (Property Details)**
+   - When a property is clicked, open a side modal (not full page).
+   - Display detailed information, images, amenities, rent, lease expiry.
+   - Arrow navigation for multiple properties.
+
+6. **Drill-Down Page**
+   - Enhanced comparison table with:
+     - Rent range (not just median).
+     - Lease expiry for < 3 bed properties.
+     - Previous comparables (pictures + addresses).
+     - Dropdown to filter by rental status: Active, Off Market, Coming Soon.
+
+7. **Near Me Page**
+   - Show nearby properties using map and geolocation.
+   - Option to compare nearby properties directly.
+
+8. **Alerts Page**
+   - Notifications for new property listings matching user preferences.
+   - Toggle for enabling/disabling specific alerts.
+
+---
+
+### 🎯 Features & Interactions:
+* Toggle switches for filtering saved searches vs new.
+* Ability to remove and add comparables manually.
+* Pull data from external APIs like **Zillow** for richer comparison.
+* Sticky sidebar with sections: Dashboard, Search & Compare, Favorites, Alerts, Settings.
+* Mobile-friendly and responsive across devices.
+
+---
+
+### 🎨 Design Guidelines:
+* Use a neutral/light theme with soft gradients.
+* Emphasize usability with large, clear buttons and cards.
+* Icons for actions like Save, Compare, Favorite, Remove.
+* Fonts should be modern and readable (e.g., Poppins, Inter, Nunito).
+* Use cards and modals for displaying properties instead of full-page reloads.
